@@ -41,7 +41,8 @@ int main()
 
 
 	cout << rxp << endl;
-	delete rxp;
+	free(rxp);
+	delete test;
     return 0;
 }
 
